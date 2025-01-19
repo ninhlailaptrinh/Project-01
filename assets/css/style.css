@@ -111,3 +111,95 @@ a {
   right: calc((100vw - 1110px) / 2 - 100px);
   bottom: 0;
 }
+/* Clients */
+.clients {
+  margin-top: 122px;
+}
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+.clients .desc {
+  font-weight: 500;
+  font-style: 1.6rem;
+  line-height: 1.25;
+  color: #7d8589;
+}
+.clients .row-desc {
+  margin-top: 23px;
+}
+.clients .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+/* Guides */
+.guides {
+  margin-top: 200px;
+}
+.guides .sub-title {
+  position: relative;
+  font-weight: 600;
+  font-style: 3.5rem;
+  line-height: 1;
+  text-align: center;
+  color: #000339;
+}
+.guides .sub-title::before {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+  transform: translateX(-50%);
+}
+.guides .desc {
+  width: 459px;
+  max-width: 100%;
+  margin: 20px auto 0;
+  font-weight: 400;
+  font-style: 1.6rem;
+  line-height: 30px;
+  text-align: center;
+  color: #5a6473;
+}
+.list-guide {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+.guide-item .title {
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #3b3c45;
+}
+.guide-item .link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+  font-style: 1.4rem;
+  color: #0689ff;
+}
+.guide-item .arow {
+  margin-left: 6px;
+}
+.guide-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.guide-cta .btn {
+  min-width: 170px;
+}
