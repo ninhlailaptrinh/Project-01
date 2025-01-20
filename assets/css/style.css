@@ -111,6 +111,7 @@ a {
   color: #5a6473;
 }
 .hero-cta {
+  margin-top: 40px;
   min-width: 170px;
 }
 .hero-img {
