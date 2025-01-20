@@ -27,7 +27,7 @@ a {
   padding: 18px 16px;
   min-width: 98px;
   background: var(--primary);
-  border-radius: 8px;
+  border-radius: 12px;
   color: #ffffff;
   font-weight: 500;
   text-align: center;
@@ -73,6 +73,7 @@ a {
 .navbar .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
+  border-radius: 8px;
 }
 
 .hero {
@@ -121,7 +122,7 @@ a {
 }
 .clients .desc {
   font-weight: 500;
-  font-style: 1.6rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   color: #7d8589;
 }
@@ -142,7 +143,7 @@ a {
 .guides .sub-title {
   position: relative;
   font-weight: 600;
-  font-style: 3.5rem;
+  font-size: 3.5rem;
   line-height: 1;
   text-align: center;
   color: #000339;
@@ -164,7 +165,7 @@ a {
   max-width: 100%;
   margin: 20px auto 0;
   font-weight: 400;
-  font-style: 1.6rem;
+  font-size: 1.6rem;
   line-height: 30px;
   text-align: center;
   color: #5a6473;
@@ -189,7 +190,7 @@ a {
   display: inline-block;
   margin-top: 10px;
   font-weight: 600;
-  font-style: 1.4rem;
+  font-size: 1.4rem;
   color: #0689ff;
 }
 .guide-item .arow {
@@ -202,4 +203,99 @@ a {
 }
 .guide-cta .btn {
   min-width: 170px;
+}
+/* featured */
+.featured {
+  margin-top: 120px;
+  padding: 110px 0;
+  background: #f5fafe;
+}
+.featured .sub-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #000339;
+}
+.featured .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.featured .desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.88;
+  color: #5a6473;
+}
+
+.featured .link {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #0689ff;
+}
+
+.featured .link .arow {
+  margin-left: 8px;
+}
+
+.featured .list {
+  display: flex;
+  margin-top: 70px;
+  gap: 30px;
+}
+
+.featured .item {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.featured .item .thumb {
+  width: 100%;
+
+  height: 227px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+
+  border-top-right-radius: 12px;
+}
+
+.featured .item .body {
+  padding: 17px 20px 24px;
+}
+.featured .item .title {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1;
+  color: #000339;
+}
+.featured .item .desc {
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #a3a6ab;
+}
+
+.featured .item .info {
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+}
+
+.featured .item .icon {
+  margin-left: 23px;
+}
+.featured .item .icon:first-child {
+  margin-left: 0;
+}
+
+.featured .item .label {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.01em;
+  color: #4d4d52;
 }
